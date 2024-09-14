@@ -4,7 +4,7 @@ import express from "express"
 import dotenv from "dotenv"
 import cookieParser from "cookie-parser"
 import authRoutes from "./routes/authRoutes.js"
-import messageRoutes from "./routes/messageRoutes.js";
+import messageRoutes from "./routes/MessageRoutes.js";
 import userRoutes from "./routes/userRoutes.js";
 import connectToMongoDB from "./db/connectToMongoDB.js"
 /*const app = express()
