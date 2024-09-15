@@ -21,7 +21,7 @@ app.use('/api/messages', messageRoutes);
 app.use('/api/users', userRoutes);
 
 // Serve static files from the frontend build directory
-app.use(express.static(path.join(__dirname, 'frontend', 'dist')));
+app.use(express.static(path.join(__dirname, 'frontend', 'dist', 'index.html')));
 
 // Serve the frontend app's entry point for all other routes
 app.get('*', (req, res) => {
